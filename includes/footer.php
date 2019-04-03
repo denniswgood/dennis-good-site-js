@@ -1,0 +1,1 @@
+<p><a target="_blank" href="https://www.instagram.com/dgooddesign/">Instagram</a> / <a target="_blank" href="https://twitter.com/dgooddesign">Twitter</a> / <a target="_blank" href="http://denniswgood.tumblr.com/">Tumblr</a></p>
