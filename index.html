@@ -16,20 +16,7 @@
     <link rel="manifest" href="/site.webmanifest">
     </head>
 <body>
-  <div class="row header">
-    <div class="small-12 medium-4 columns">
-    <a href="/index.php"><p class="script"><img class="logo-image" src="img/dwg-logo.svg" width="80" height="" /></a><span>&nbsp;&nbsp;&nbsp;designer + illustrator</span></p>
-    </div>
-    <div class="small-12 medium-8 columns">
-      <ul class="nav-list medium-text-right">
-        <li><a href="/about.html">About</a></li>
-        <li style="display: none;"><a href="/work.php">Work</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/thoughts.html">Thoughts</a></li>
-        <li><a target="_blank" href="https://dennisgood.threadless.com/">T-Shirts</a></li>
-      </ul>
-    </div>
-  </div>
+    <div w3-include-html="nav-list.html"></div>
 <section class="content">
     <div class="row" >
       <div class="medium-8 columns" >
@@ -65,8 +52,6 @@
     </div>
 </section>
 <div w3-include-html="footer.html"></div>
-<script>
-  includeHTML();
-</script>
+<script>includeHTML();</script>
 </body>
 </html>
