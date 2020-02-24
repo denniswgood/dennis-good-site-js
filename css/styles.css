@@ -152,9 +152,8 @@ button h2, .button h2 {
 }
 
 .text-container {
-	background-color: #fcfcfc;
-    position: relative;
-    padding: 40px 55px;
+	position: relative;
+	padding: 40px 55px;
 	margin-bottom: 30px;
 }
 
