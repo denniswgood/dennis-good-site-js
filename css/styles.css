@@ -305,7 +305,6 @@ button h2, .button h2 {
 @media only screen and (max-width: 568px) {
 	
 	.text-container {
-		background-color: #fcfcfc;
 		position: relative;
 		padding: 20px;
 		margin-bottom: 30px;
