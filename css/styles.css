@@ -33,7 +33,7 @@ h1 {
 	font-weight: 600;
 	padding-bottom: 10px;
 	line-height: 50px;
-	border-bottom: 4px solid #000000;
+	border-bottom: 4px solid #fff;
     margin-bottom: 50px;
     display: inline-block;
     text-transform: uppercase;
@@ -116,7 +116,7 @@ a:hover {
 /* Buttons */
 
 button, .button {
-	background-color: #000000;
+	background-color: #d23a07;
 	color: #ffffff;
 	padding: 10px 32px;
 	font-weight: 700;
@@ -129,7 +129,7 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-	background-color: #000000;
+	background-color: #ec4f1a;
     color: #ffffff;
 }
 
@@ -274,7 +274,7 @@ button h2, .button h2 {
 }
 
 .nav-list a {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 700;
 	text-decoration: none;
@@ -282,7 +282,7 @@ button h2, .button h2 {
 }
 
 .nav-list a:hover {
-	border-bottom: 3px solid #000000;
+	border-bottom: 3px solid #ffffff;
 }
 
 /* Footer navigation */
