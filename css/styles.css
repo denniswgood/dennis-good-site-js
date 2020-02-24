@@ -64,13 +64,13 @@ h5 {
 /* Anchor tags */
 
 a, a:focus, a:visited {
-	color: #000000;
+	color: #d23a07;
 	font-weight: 600;
 }
 
 a:hover {
-	color: #000000;
-	border-bottom: 3px solid #000000;
+	color: #ec4f1a;
+	border-bottom: 3px solid #ec4f1a;
 }
 
 /* Selection highlighting */
@@ -78,22 +78,22 @@ a:hover {
 ::-moz-selection {
 	/* Code for Firefox */
 	color: #ffffff;
-	background: #000000;
+	background: #ec4f1a;
 }
 
 ::selection {
 	color: #ffffff;
-	background: #000000;
+	background: #ec4f1a;
 }
 
 ::selection {
-	background: #000000;
+	background: #ec4f1a;
 	/* WebKit/Blink Browsers */
 	color: #ffffff;
 }
 
 ::-moz-selection {
-	background: #000000;
+	background: #ec4f1a;
 	/* Gecko Browsers */
 	color: #ffffff;
 }
