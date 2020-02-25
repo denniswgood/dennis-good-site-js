@@ -14,7 +14,7 @@ body {
 p {
 	font-size: 18px;
 	color: #fff;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 .script {
@@ -39,11 +39,11 @@ h1 {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 35px;
     line-height: 48px;
     font-weight: 500;
-    text-decoration: underline;
-    text-align: left;
+		text-align: center;
+		margin-bottom: 30px;
 }
 
 h3 {
@@ -250,7 +250,7 @@ button h2, .button h2 {
 
 .content {
 	background-color: #1f1f1f;
-	padding: 30px 0;
+	padding: 50px 0 30px 0;
 }
 
 /* Navigation */
@@ -282,6 +282,14 @@ button h2, .button h2 {
 
 .nav-list a:hover {
 	border-bottom: 3px solid #ffffff;
+}
+
+/* Book shelf */
+
+.book-shelf img {
+	max-height: 310px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 /* Footer navigation */
