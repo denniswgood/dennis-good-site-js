@@ -285,7 +285,7 @@ button h2, .button h2 {
 
 .nav-list a {
 	color: #ffffff;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 700;
 	text-decoration: none;
 	border-bottom: 0;
@@ -307,7 +307,7 @@ button h2, .button h2 {
 
 .nav-list.footer-list a, .nav-list.footer-list p {
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	text-decoration: none;
 	border-bottom: 0;
 }
