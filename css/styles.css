@@ -4,7 +4,7 @@
 */
 
 body {
-	padding: 0;
+	padding: 20px;
 	font-family: 'Rubik', sans-serif;
 	background-color: #1f1f1f;
 }
@@ -103,9 +103,6 @@ a:hover {
 	margin-top: 75px;
 }
 
-.row {
-    max-width: 72.5rem;
-}
 
 /* Header logo */
 
@@ -299,6 +296,13 @@ button h2, .button h2 {
 	font-size: 12px;
 	text-decoration: none;
 	border-bottom: 0;
+}
+
+/* Utility classes */
+
+.v-align {
+	display: flex;
+	align-items: center;
 }
 
 /* 375px - 667px*/
