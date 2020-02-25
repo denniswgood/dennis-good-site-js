@@ -17,13 +17,6 @@ p {
 	line-height: 30px;
 }
 
-.script {
-	font-family: 'Bad Script', cursive;
-	text-transform: lowercase;
-    padding-right: 10px;
-    font-size: 19px;
-}
-
 h1, h2, h3, h4, h5 {
 	font-family: 'Rubik', sans-serif !important;
 	color: #ffffff;
@@ -36,6 +29,11 @@ h1 {
 	line-height: 43px;
 	margin-bottom: 30px;
 	display: inline-block;
+}
+
+.header h1 {
+	color: #d23a07;
+	font-size: 55px;
 }
 
 @media screen and (min-width: 480px) {
