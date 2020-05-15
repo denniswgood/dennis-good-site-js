@@ -344,16 +344,3 @@ button h2, .button h2 {
 	}
 
 	}
-
-	.typing-text::after {
-  content: "|";
-  animation: blink ease 1s infinite;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 0;
-  } 50% {
-    opacity: 1;
-  }
-}
