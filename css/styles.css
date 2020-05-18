@@ -32,7 +32,7 @@ h1 {
 }
 
 .header h1 {
-	color: #e6e5e4;
+	color: #d23a07;
 	font-size: 55px;
 }
 
@@ -344,10 +344,6 @@ button h2, .button h2 {
 	}
 
 	}
-
-	h1 {
-  margin: 0 0 30px 0;
-}
 
 span.typing-text {
 	color: #d23a07;
