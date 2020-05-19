@@ -224,9 +224,15 @@ button h2, .button h2 {
 
 .nav-list.footer-list a, .nav-list.footer-list p {
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 12px;
 	text-decoration: none;
 	border-bottom: 0;
+}
+
+@media (min-width: 576px) {
+	.nav-list.footer-list a, .nav-list.footer-list p {
+		font-size: 15px;
+	}
 }
 
 /* Utility classes */
