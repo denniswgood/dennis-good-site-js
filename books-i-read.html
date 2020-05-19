@@ -1,85 +1,86 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dennis Good</title>
-  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-  <script src="/js/vendor/modernizr.js"></script>
   <script src="/js/script.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
-  <div w3-include-html="nav-list.html"></div>
-  <section class="content">
+  <div class="container">
+    <div w3-include-html="nav-list.html"></div>
     <div class="row">
-      <div class="small-12 medium-12 columns">
-        <div class="text-container text-center book-shelf">
+      <div class="col-12">
+        <div class="text-center book-shelf">
           <div class="row">
-            <div class="small-12 columns">
+            <div class="col-12">
               <h1>Books I Read</h1>
             </div>
           </div>
           <div class="row">
-            <div class="small-12 columns">
+            <div class="col-12">
               <h2>2020</h2>
             </div>
           </div>
           <div class="row">
-            <div class="medium-4 columns">
-              <img src="/img/atomic-habits.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/atomic-habits.jpg" />
               <p>Atomic Habits</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/the-happiness-advantage.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/the-happiness-advantage.jpg" />
               <p>The Happiness Advantage</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/rivals-enemies.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/rivals-enemies.jpg" />
               <p>Rivals! Frenemies Who Changed the World</p>
             </div>
           </div>
           <div class="row">
-            <div class="medium-4 columns">
-              <img src="/img/alone-with-the-stars.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/alone-with-the-stars.jpg" />
               <p>Alone with the Stars</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/a-man-called-ove.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/a-man-called-ove.jpg" />
               <p>A Man Called Ove</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/we-are-legion.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/we-are-legion.jpg" />
               <p>We Are Legion</p>
             </div>
           </div>
           <div class="row">
-            <div class="medium-4 columns">
-              <img src="/img/influenza.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/influenza.jpg" />
               <p>Influenza</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/grit.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/grit.jpg" />
               <p>Grit</p>
             </div>
-            <div class="medium-4 columns">
-              <img src="/img/1000-little-things.jpg" />
+            <div class="col-md-4">
+              <img class="img-fluid" src="/img/1000-little-things.jpg" />
               <p>1000 Little Things</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <div w3-include-html="footer.html"></div>
+    <div w3-include-html="footer.html"></div>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/popper.min.js"></script>
+  <script src="js/vendor/bootstrap.js"></script>
   <script>includeHTML();</script>
 </body>
 
