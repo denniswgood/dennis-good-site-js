@@ -5,21 +5,21 @@
 
 body {
 	font-family: 'Rubik', sans-serif;
-	background-color: #1f1f1f;
+	background-color: #ffffff;
 }
 
 /* Headings & Text */
 
 p {
 	font-size: 19px;
-	color: #fff;
+	color: #1f1f1f;
 	line-height: 30px;
 	margin-bottom: 30px;
 }
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Rubik', sans-serif !important;
-	color: #ffffff;
+	color: #1f1f1f;
 }
 
 h1 {
@@ -73,6 +73,7 @@ ul {
 
 ul li {
 	margin-bottom: 25px;
+	list-style: none;
 }
 
 /* Anchor tags */
@@ -266,7 +267,7 @@ button h2, .button h2 {
 
 @media screen and (min-width: 480px) {
 	.content {
-		background-color: #1f1f1f;
+		background-color: #ffffff;
 		padding: 50px 0 30px 0;
 		min-height: 500px;
 	}
@@ -292,7 +293,7 @@ button h2, .button h2 {
 }
 
 .nav-list a {
-	color: #ffffff;
+	color: #1f1f1f;
 	font-size: 18px;
 	font-weight: 700;
 	text-decoration: none;
