@@ -121,7 +121,9 @@ a:hover {
 }
 
 .container {
-	max-width: 960px;	
+		max-width: 960px;
+		padding-right: 30px;
+		padding-left: 30px;
 }
 
 
