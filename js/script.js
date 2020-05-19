@@ -5,8 +5,8 @@ const text = document.querySelector('.typing-text');
 
 // make a words array
 const words = [
-  "UX Designer.",
-  "Pen & Ink Illustrator.",
+  "Designer.",
+  "Illustrator.",
   "Dad.",
   "Husband.",
   "Coach."
