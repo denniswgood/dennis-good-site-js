@@ -80,6 +80,14 @@ ul li {
 
 /* Anchor tags */
 
+a img {
+	border: 1px solid #000000;
+}
+
+a:hover img {
+	border-color: #f63b28;
+}
+
 a, a:focus, a:visited {
 	color: #f63b28;
 	font-weight: 600;
