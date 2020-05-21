@@ -85,7 +85,7 @@ a img {
 }
 
 a:hover img {
-	border-color: #f63b28;
+	border: 2px solid  #f63b28;
 }
 
 a, a:focus, a:visited {
