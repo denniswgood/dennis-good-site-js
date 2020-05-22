@@ -3,10 +3,9 @@
   Welcome to my personal site.
 */
 
-
 body {
-	font-family: 'Rubik', sans-serif;
-	background-color: transparent
+	font-family: "Rubik", sans-serif;
+	background-color: transparent;
 }
 
 /* Headings & Text */
@@ -15,11 +14,15 @@ p {
 	font-size: 19px;
 	color: #1f1f1f;
 	line-height: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: 'Rubik', sans-serif !important;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Rubik", sans-serif !important;
 	color: #1f1f1f;
 }
 
@@ -46,10 +49,10 @@ h1 {
 
 h2 {
 	font-size: 35px;
-    line-height: 48px;
-    font-weight: 500;
-		text-align: center;
-		margin-bottom: 30px;
+	line-height: 48px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 h3 {
@@ -60,20 +63,31 @@ h3 {
 }
 
 h4 {
-	font-size: .9em;
+	font-size: 0.9em;
 }
 
 h5 {
-	font-size: .8em;
+	font-size: 0.8em;
 }
 
 ul {
-	margin-left: 0;
+	margin-left: 15px;
 	margin-bottom: 45px;
 	padding-left: 0;
 }
 
 ul li {
+	margin-bottom: 15px;
+	font-size: 19px;
+}
+
+ul.content-list {
+	margin-left: 0;
+	margin-bottom: 45px;
+	padding-left: 0;
+}
+
+ul.content-list li {
 	margin-bottom: 25px;
 	list-style: none;
 }
@@ -85,10 +99,12 @@ a img {
 }
 
 a:hover img {
-	border: 2px solid  #f63b28;
+	border: 2px solid #f63b28;
 }
 
-a, a:focus, a:visited {
+a,
+a:focus,
+a:visited {
 	color: #f63b28;
 	font-weight: 600;
 }
@@ -129,21 +145,21 @@ a:hover {
 }
 
 .container {
-		max-width: 960px;
-		padding-right: 30px;
-		padding-left: 30px;
+	max-width: 960px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
-
 
 /* Buttons */
 
-button, .button {
+button,
+.button {
 	background-color: #f63b28;
 	color: #ffffff;
 	padding: 10px 32px;
 	font-weight: 700;
 	font-size: 15px;
-	font-family: 'Rubik', sans-serif !important;
+	font-family: "Rubik", sans-serif !important;
 	border-radius: 4px;
 }
 
@@ -152,14 +168,16 @@ button:focus,
 .button:hover,
 .button:focus {
 	background-color: #ff4c39;
-    color: #ffffff;
+	color: #ffffff;
 }
 
-button p:hover, .button p:hover {
-    border-bottom: 3px solid #ffffff;
+button p:hover,
+.button p:hover {
+	border-bottom: 3px solid #ffffff;
 }
 
-button h2, .button h2 {
+button h2,
+.button h2 {
 	margin-bottom: 0;
 	font-size: 15px;
 }
@@ -180,7 +198,7 @@ button h2, .button h2 {
 }
 
 .text-container p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 @media screen and (min-width: 480px) {
@@ -230,7 +248,8 @@ button h2, .button h2 {
 
 /* Footer navigation */
 
-.nav-list.footer-list a, .nav-list.footer-list p {
+.nav-list.footer-list a,
+.nav-list.footer-list p {
 	font-weight: 500;
 	font-size: 12px;
 	text-decoration: none;
@@ -238,7 +257,8 @@ button h2, .button h2 {
 }
 
 @media (min-width: 576px) {
-	.nav-list.footer-list a, .nav-list.footer-list p {
+	.nav-list.footer-list a,
+	.nav-list.footer-list p {
 		font-size: 15px;
 	}
 }
@@ -253,7 +273,6 @@ button h2, .button h2 {
 /* 375px - 667px*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
-
 }
 
 /* 320px - 568px */
@@ -263,18 +282,22 @@ span.typing-text {
 }
 
 .typing-text::after {
-  content: "|";
-  animation: blink ease 1s infinite;
+	content: "|";
+	animation: blink ease 1s infinite;
 }
 
 @keyframes blink {
-  0%, 100% {
-    opacity: 0;
-  } 50% {
-    opacity: 1;
-  }
+	0%,
+	100% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
 }
 
-@media screen and (min-width: 600px)  {
-	.mobile-break { display: none; }
+@media screen and (min-width: 600px) {
+	.mobile-break {
+		display: none;
+	}
 }
