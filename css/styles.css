@@ -5,7 +5,7 @@
 
 body {
 	font-family: "Rubik", sans-serif;
-	background-color: transparent;
+	background: transparent;
 }
 
 /* Headings & Text */
@@ -36,7 +36,7 @@ h1 {
 }
 
 .header h1 {
-	color: #f63b28;
+	color: #df5d50;
 	font-size: 55px;
 }
 
@@ -99,13 +99,13 @@ a img {
 }
 
 a:hover img {
-	border: 2px solid #f63b28;
+	border: 2px solid #df5d50;
 }
 
 a,
 a:focus,
 a:visited {
-	color: #f63b28;
+	color: #df5d50;
 	font-weight: 600;
 }
 
@@ -154,7 +154,7 @@ a:hover {
 
 button,
 .button {
-	background-color: #f63b28;
+	background-color: #df5d50;
 	color: #ffffff;
 	padding: 10px 32px;
 	font-weight: 700;
@@ -278,7 +278,7 @@ button h2,
 /* 320px - 568px */
 
 span.typing-text {
-	color: #f63b28;
+	color: #df5d50;
 }
 
 .typing-text::after {
